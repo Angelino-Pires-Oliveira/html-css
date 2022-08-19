@@ -3,10 +3,14 @@
 
 @import url('https://fonts.googleapis.com/css2? family= Sriracha & display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 :root {
     --fonte1: Verdana, Geneva, Tahoma, sans-serif;
-    --fonte2: 'Passion One', cursiva;
-    --fonte3: 'Sriracha', cursiva;
+    --fonte2: 'Montserrat', sans-serif;
+    --fonte3: /*'Pacifico', cursive;*/'Sriracha', cursive;
 }
 
 * {
