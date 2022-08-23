@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Tabelas</title>
+    <style>
+      body {
+        font-family:Arial, Helvetica, sans-serif ;
+      } 
+      h1 {
+        text-align: center;
+        background-color: darkgray;
+      }
+      table{
+        border-collapse: collapse;
+        width: 700px;
+        text-align: center;       
+      }
+      caption {
+        font-size: 1.3em;
+        border: 1px solid black;
+        padding: 10px;
+        border-collapse: collapse;
+      } 
+      td, th {
+        border: 1px solid black;
+        padding: 10px;
+      } 
+      th.titulo{
+        background-color: darkgray;
+        color: white;
+      }
+      td.titulo {
+        background-color: darkgray;
+        color: white;
+      }
+    </style>
+</head>
+<body>
+            <table>
+            <caption>
+              Aluno:  Angelino Pires de Oliveira
+            </caption>
+            <thead>
+                <tr>
+                    <th rowspan="2" class="titulo">Área</th>
+                    <th rowspan="2" style="text-align:left" class="titulo">Diciplinas</th>
+                    <th colspan="2" class="titulo">Notas</th>
+                    <th rowspan="2" class="titulo">Média</th>
+                </tr>
+                <tr>
+                    <th class="titulo">Nota1</th>
+                    <th class="titulo">Nota2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th rowspan="4">Exatas</th>
+                    <td style="text-align:left">Matemática</td>
+                    <td>9,0</td>
+                    <td>9,0</td>
+                    <td>9,0</td>
+                </tr>
+                <tr>
+                    <td style="text-align:left">Física</td>
+                    <td>9,0</td>
+                    <td>9,0</td>
+                    <td>9,0</td>
+                </tr>
+                <tr>
+                    <td style="text-align:left">Quimica</td>
+                    <td>10,0</td>
+                    <td>9,0</td>
+                    <td>9,5</td>
+                </tr>
+                <tr>
+                    <td style="text-align:left">Bilologia</td>
+                    <td>9,0</td>
+                    <td>10,0</td>
+                    <td>9,5</td>
+                </tr>
+                <tr>
+                    <th colspan="4" style="text-align:left" class="titulo">Média de Exatas</th>
+                    <td class="titulo">9,25</td>
+                </tr>
+                <tr>
+                    <th rowspan="2">Humanas</th>
+                    <td style="text-align:left">História</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td style="text-align:left">Geografia</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <th colspan="4" style="text-align:left" class="titulo">Média de Humanas</th>
+                    <td class="titulo">10</td>
+                </tr>
+                
+            </tbody>
+
+        </table>
+    
+</body>
+</html>
