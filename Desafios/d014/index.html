@@ -9,10 +9,6 @@
       body {
         font-family:Arial, Helvetica, sans-serif ;
       } 
-      h1 {
-        text-align: center;
-        background-color: darkgray;
-      }
       table{
         border-collapse: collapse;
         width: 700px;
@@ -45,19 +41,19 @@
             </caption>
             <thead>
                 <tr>
-                    <th rowspan="2" class="titulo">Área</th>
-                    <th rowspan="2" style="text-align:left" class="titulo">Diciplinas</th>
-                    <th colspan="2" class="titulo">Notas</th>
-                    <th rowspan="2" class="titulo">Média</th>
+                    <th rowspan="2" class="titulo" scope="col">Área</th>
+                    <th rowspan="2" style="text-align:left" class="titulo" scope="col">Diciplinas</th>
+                    <th colspan="2" class="titulo" scope="colgroup">Notas</th>
+                    <th rowspan="2" class="titulo" scope="col">Média</th>
                 </tr>
                 <tr>
-                    <th class="titulo">Nota1</th>
-                    <th class="titulo">Nota2</th>
+                    <th class="titulo" scope="col">Nota1</th>
+                    <th class="titulo" scope="col">Nota2</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <th rowspan="4">Exatas</th>
+                    <th rowspan="4" scope="rowgroup">Exatas</th>
                     <td style="text-align:left">Matemática</td>
                     <td>9,0</td>
                     <td>9,0</td>
@@ -82,11 +78,11 @@
                     <td>9,5</td>
                 </tr>
                 <tr>
-                    <th colspan="4" style="text-align:left" class="titulo">Média de Exatas</th>
+                    <th colspan="4" style="text-align:left" class="titulo" scope="row">Média de Exatas</th>
                     <td class="titulo">9,25</td>
                 </tr>
                 <tr>
-                    <th rowspan="2">Humanas</th>
+                    <th rowspan="2" scope="rowgroup">Humanas</th>
                     <td style="text-align:left">História</td>
                     <td>10</td>
                     <td>10</td>
@@ -99,7 +95,7 @@
                     <td>10</td>
                 </tr>
                 <tr>
-                    <th colspan="4" style="text-align:left" class="titulo">Média de Humanas</th>
+                    <th colspan="4" style="text-align:left" class="titulo" scope="row">Média de Humanas</th>
                     <td class="titulo">10</td>
                 </tr>
                 
